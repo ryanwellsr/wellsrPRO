@@ -53,6 +53,6 @@ Installing wellsrPRO on Excel 2010 and newer:
 
 Visit [wellsr.com](https://wellsr.com/) for more information and navigate the "Help and Info" section on the top ribbon for assistance with the add-in. 
 
-Meet the developer: 
+**Meet the developer:** 
      [@ryanwellsr](https://twitter.com/ryanwellsr)
 
