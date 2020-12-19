@@ -6,8 +6,8 @@
 *********************************************************************************************
 ### To prevent the add-in from disappearing when you restart Excel, follow these steps. 
 
-1) Close Excel
-2) Unzip the wellsrPRO zip file to extract the contents
+1) Download [wellsrPRO.xlam](https://github.com/ryanwellsr/wellsrPRO/raw/main/wellsrPRO.xlam)
+2) Close Excel
 3) Right-click the wellsrPRO.xlam file in Windows Explorer
 4) Click Properties
 5) On the General tab, you may see a message that states: "This file came from another computer
@@ -32,14 +32,14 @@ Place your wellsrPRO file in the folder that opens (debug.print application.Star
 ### Installing wellsrPRO on Excel 2010 and newer
 
 Installing wellsrPRO on Excel 2010 and newer:
-1) If you haven't done so already, unzip the wellsrPRO zip file to extract the contents
+1) If you haven't done so already, download wellsrPRO.xlam
 2) Open Excel
 3) Click the File tab
 4) Click Options
 5) Click the Add-Ins category on the left bar of the Excel Options Dialog Box
 6) In the Manage box near the bottom, click Excel Add-ins, and then click Go. The Add-Ins dialog box appears.
 7) Click Browse
-8) Navigate to the directory where you extracted wellsrPRO.zip
+8) Navigate to the directory where you downloaded wellsrPRO.xlam
 9) Select wellsrPRO.xlam, and then click OK. You may be asked to copy the add-in to your local Microsoft AddIns directory. This is optional.
 10) Make sure the checkbox next to "wellsrPRO" is checked, then click OK.
 11) If the add-in keeps disappearing when you restart Excel, follow the directions at the top of this file
