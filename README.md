@@ -51,7 +51,7 @@ Installing wellsrPRO on Excel 2010 and newer:
 <i>You cannot run update.vbs manually. Attempting to do so will generate an error. This script is an internal script used by wellsrPRO to check for updates. You can ignore it. :-) </i>
 *************************************************************************************************
 
-Visit wellsr.com for more information and navigate the "Help and Info" section on the top ribbon for assistance with the add-in. 
+Visit [wellsr.com](https://wellsr.com/) for more information and navigate the "Help and Info" section on the top ribbon for assistance with the add-in. 
 
 Meet the developer: 
      [@ryanwellsr](https://twitter.com/ryanwellsr)
