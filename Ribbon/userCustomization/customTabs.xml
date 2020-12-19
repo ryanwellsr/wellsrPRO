@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI onLoad="wellsrRibbon" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+	<tab id="twellsr" label="wellsrPRO">
+
+          <group id="grpTools" label="Custom Functions" >
+         <box id="boxTop" boxStyle="horizontal"><labelControl id="label" label=" " getEnabled="wellsrdrp_Navigate_getEnable" /></box>
+   <box id="boxMiddle" boxStyle="horizontal">  
+     <dropDown
+      id="wellsrdrp_Navigate"
+      keytip="&amp;TN"
+      screentip="Select UDF"
+      supertip="Hovering over a UDF in the dropdown box shows a brief description of each function."
+      sizeString="WWWWWWWWWW"
+      tag="TS"
+      getItemCount="wellsrdrp_Navigate_getItemCount"
+      getItemID="wellsrdrp_Navigate_getItemID"
+      getItemLabel="wellsrdrp_Navigate_getItemLabel"
+      getItemSupertip="wellsrdrp_Navigate_getItemSupertip"
+      getSelectedItemIndex="wellsrdrp_Navigate_getSelectedItemIndex"
+      onAction="wellsrTS_Navigate_OnAction"
+      getEnabled="wellsrdrp_Navigate_getEnable" />
+   </box>
+         <box id="boxBottom" boxStyle="horizontal">
+           <button id="bBlank2" label=" " visible="true" size="normal" enabled="false" />
+           <button id="bEdit" label="Insert Function" image="insert" size="normal" onAction="wellsrHandleRibbon"
+              screentip="Insert Function into active cell" supertip="Insert wellsr.com UDF into active cell." getEnabled="wellsrdrp_Navigate_getEnable" />
+         </box>
+          </group>
+
+          <group id="grpXML" label="Latest Posts from wellsr.com" >
+         <box id="boxTopXML" boxStyle="horizontal"><labelControl id="labelXML" label=" " /> </box>
+   <box id="boxMiddleXML" boxStyle="horizontal">  
+     <dropDown
+      id="wellsrXML"
+      keytip="&amp;TN"
+      screentip="View latest posts from wellsr.com"
+      supertip="Check out the latest articles from wellsr.com!"
+      sizeString="WWWWWWWWWWWWWWWWWWWWWW"
+      tag="XML"
+      getItemCount="XML_getItemCount"
+      getItemID="XML_getItemID"
+      getItemLabel="XML_getItemLabel"
+      getItemSupertip="XML_getItemSupertip"
+      getSelectedItemIndex="XML_getSelectedItemIndex"
+      onAction="XML_OnAction" image ="rss" />
+   </box>
+         <box id="boxBottomXML" boxStyle="horizontal">
+           <button id="bBlank3" label="     " visible="true" size="normal" enabled="false" />
+           <button id="bHome" label="Show All" visible="true" image="list" size="normal" enabled="true" onAction="XMLHandleRibbon"
+              screentip="View a full list of Excel VBA Tutorials from wellsr.com" supertip="View a full list of Excel VBA Tutorials from wellsr.com and launch the tutorial when you're ready to learn more." />
+           <button id="bRandom" label="Random Article" visible="true" image="random" size="normal" enabled="true" onAction="XMLHandleRibbon"
+              screentip="Open random wellsr.com VBA article" supertip="Open random wellsr.com VBA article" />
+           <button id="bLaunch" label="Open Article" image="read" size="normal" onAction="XMLHandleRibbon"
+              screentip="Open wellsr.com VBA article" supertip="Open wellsr.com VBA article" />
+         </box>
+          </group>
+
+          <group id="grpImport" label="Auto-Import" >
+<button id="bImport" label="Import Macros" visible="true" image="download" size="large" enabled="true" onAction="XMLHandleRibbon"
+              screentip="Select the VBA tutorial you want and automatically download the macros mentioned in it" supertip="Import the sample macros presented in the wellsr.com article of your choosing directly into your VBA editor so you can instantly test them out" />
+	    <toggleButton id="tTrust" onAction="buttonToggle" getPressed="wxPressed" getLabel="wxLabel" getImage="wxImage" size="large" supertip="Toggle trust access. Trust access must be enabled to import macros from wellsr.com, but it's a good practice to disable trust access when not using wellsrPRO. Disabling trust access helps protect you from malicious macros you may inadvertently download from online." />
+<button id="bFavorites" label="Manage Favorites" visible="true" image="favorites" size="normal" enabled="true" onAction="XMLHandleRibbon"
+              screentip="Manage your list of favorite articles" supertip="You'll have quick access to the articles you include in your favorites, so you'll be able to quickly import the macros into your existing project and launch the tutorials whenever you need to" />
+<button id="bMyMacros" label="Manage My Macros" visible="true" image="library" size="normal" enabled="true" onAction="wellsrHandleRibbon"
+              screentip="Add and edit your own macros" supertip="Add your own macros to wellsrPRO and edit existing macros. This way, you can use wellsrPRO to manage your own personal macro library." />
+<button id="bShareMacros" label="Share My Macros" visible="true" image="share" size="normal" enabled="true" onAction="wellsrHandleRibbon"
+              screentip="Share your macros with the wellsrPRO community" supertip="If you have a really helpful macro, share it with the wellsrPRO community so they can automatically import your creation into their workbook. Together we can crowdsource VBA!" />
+          </group>
+
+          <group id="grpInfo" label="Help and Resources" >
+	    <button id="bDonate" label="Reference Guides" image="cheatsheet" size="large" onAction="wellsrHandleRibbon"
+              screentip="Best-selling VBA Reference Guides" supertip="If you like wellsrPRO, you'll love our popular VBA Cheat Sheets. An extension of our wellsrPRO training program, these cheat sheets are built to make you a better programmer."/>
+	    <button id="bConsult" label="Post a Question" image="consult" size="large" onAction="wellsrHandleRibbon"
+              screentip="Ask our VBA Community" supertip="Post your question and our community of VBA Insiders will do our best to find an answer for you."/>
+		<button id="bUpdate" label="Check for Updates" image="update" size="normal" onAction="XMLHandleRibbon"
+              screentip="Check to see if you have the latest version of wellsrPRO installed." supertip="Although wellsrPRO automatically checks for updates when you launch Excel, you can click this button to immediately check for updates."/>
+	    <button id="bFeedback" label="Submit Feedback" image="feedback" size="normal" onAction="XMLHandleRibbon"
+              screentip="Report a bug or submit a request for new features." supertip="Improve wellsrPRO by submitting feedback."/>
+	    <button id="bHelp" label="About wellsrPRO" image="logo" size="normal" onAction="wellsrHandleRibbon"
+              screentip="Help and information about the macros, functions and features included in the wellsr.com add-in." supertip="Help and information about the macros, functions and features included in the wellsr.com add-in."/>
+		</group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
