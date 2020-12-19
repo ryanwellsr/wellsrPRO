@@ -21,9 +21,12 @@ the wellsrPRO.xlam file here.
 
 If this still doesn't work, Launch Excel, Open your VBA Editor, create a New Module, then
 run the following macro:
+
+```
     Sub OpenXLSTART()
         Shell "explorer.exe " & Application.StartupPath, vbNormalFocus
     End Sub
+```
 
 Place your wellsrPRO file in the folder that opens (debug.print application.StartupPath)
 
