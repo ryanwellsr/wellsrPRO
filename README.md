@@ -1,4 +1,4 @@
-# wellsrPRO
+# wellsrPRO Excel Add-in for wellsr.com
 | Note    	| Description                                                                                                                                             	|
 |---------	|---------------------------------------------------------------------------------------------------------------------------------------------------------	|
 | #1 	| Clicking wellsrPRO.xlam to load the add-in may cause macros to become disabled! Follow the installation instructions below for proper installation! 	|
