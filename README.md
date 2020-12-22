@@ -1,21 +1,25 @@
 # wellsrPRO Excel Add-in for wellsr.com
 | Note    	| Description                                                                                                                                             	|
 |---------	|---------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| #1 	| Clicking wellsrPRO.xlam to load the add-in may cause macros to become disabled! Follow the installation instructions below for proper installation! 	|
+| #1 	| Clicking wellsrPRO.xlam to load the add-in may cause macros to become disabled! Follow the [installation instructions](#-installation-instructions) below for proper installation! 	|
+
+[Jump to Installation Instructions](#-installation-instructions)
 
 ## What is wellsrPRO?
 wellsrPRO is a revolutionary Excel Add-in that lets you access VBA tutorials and automatically import hundreds of pre-built macros from the growing list on [wellsr.com](https://wellsr.com/).  This innovative access is why wellsrPRO is so successful at teaching you VBA. Each new tutorial posted on wellsr.com will automatically appear in wellsrPRO, so you can immediately import the macros and incorporate them into your own spreadsheet.
 
 In addition to accessing hundreds tutorials and fully functional macros from wellsr.com, you can organize your own macros and even share your creations with others in the wellsrPRO community. Each macro you add will be available via the Automatic Macro Generator whenever you need them. Macros in your Favorites are prioritized for even quicker importing and are far more portable than using a Personal.xlsb file.
 
-![wellsrPRO Ribbon](https://wellsr.com/vba/assets/img/AutoImport-FullScreen.png)
+![wellsrPRO Screenshot](https://wellsr.com/vba/assets/img/AutoImport-FullScreen.png)
 
 ## Here's how you can help
 I built wellsrPRO in 2017 and kept the source code locked for 3 years. In those 3 years, it's been downloaded by thousands of my email subscribers. In December 2020, I decided to upload the entire source code to GitHub and here's why. Right now, wellsrPRO pulls tutorials & macros from my site, but its infrastructure can do so much more. I'm hoping others in the GitHub community will fork this project and expand it to pull tutorials and macros from other Excel websites and even add brand new functions. Once you've improved it, submit a pull request and I'll push the new release to our active users.
 
+![wellsrPRO Ribbon](https://wellsr.com/vba/assets/img/RecentArticles-RSS-crop2.png)
+
 *********************************************************************************************
 
-## Installation Instructions
+# Installation Instructions
 ### To prevent the add-in from disappearing when you restart Excel, follow these steps. 
 
 1) Download [wellsrPRO.xlam](https://github.com/ryanwellsr/wellsrPRO/raw/main/wellsrPRO.xlam)
