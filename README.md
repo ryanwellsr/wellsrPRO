@@ -1,9 +1,9 @@
 # wellsrPRO Excel Add-in for wellsr.com
 | Note    	| Description                                                                                                                                             	|
 |---------	|---------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| #1 	| Clicking wellsrPRO.xlam to load the add-in may cause macros to become disabled! Follow the [installation instructions](#-installation-instructions) below for proper installation! 	|
+| #1 	| Clicking wellsrPRO.xlam to load the add-in may cause macros to become disabled! Follow the [installation instructions](#installation-instructions) below for proper installation! 	|
 
-[Jump to Installation Instructions](#-installation-instructions)
+[Jump to Installation Instructions](#installation-instructions)
 
 ## What is wellsrPRO?
 wellsrPRO is a revolutionary Excel Add-in that lets you access VBA tutorials and automatically import hundreds of pre-built macros from the growing list on [wellsr.com](https://wellsr.com/).  This innovative access is why wellsrPRO is so successful at teaching you VBA. Each new tutorial posted on wellsr.com will automatically appear in wellsrPRO, so you can immediately import the macros and incorporate them into your own spreadsheet.
@@ -19,7 +19,7 @@ I built wellsrPRO in 2017 and kept the source code locked for 3 years. In those 
 
 *********************************************************************************************
 
-# Installation Instructions
+#Installation Instructions
 ### To prevent the add-in from disappearing when you restart Excel, follow these steps. 
 
 1) Download [wellsrPRO.xlam](https://github.com/ryanwellsr/wellsrPRO/raw/main/wellsrPRO.xlam)
