@@ -19,7 +19,7 @@ I built wellsrPRO in 2017 and kept the source code locked for 3 years. In those 
 
 *********************************************************************************************
 
-#Installation Instructions
+# Installation Instructions
 ### To prevent the add-in from disappearing when you restart Excel, follow these steps. 
 
 1) Download [wellsrPRO.xlam](https://github.com/ryanwellsr/wellsrPRO/raw/main/wellsrPRO.xlam)
