@@ -28,9 +28,9 @@ I built wellsrPRO in 2017 and kept the source code locked for 3 years. In those 
 4) Click Properties
 5) On the General tab, you may see a message that states: "This file came from another computer
    and might be blocked to help protect this computer."
-   a) If you see this message, click Unblock 
-   b) Click OK
-   c) Proceed to installation instructions
+    1. If you see this message, click Unblock 
+    2. Click OK
+    3. Proceed to installation instructions
 
 If this still doesn't work, try navigating to %APPDATA%\Microsoft\Excel\XLSTART and placing 
 the wellsrPRO.xlam file here.
@@ -61,7 +61,7 @@ Installing wellsrPRO on Excel 2010 and newer:
 8) Navigate to the directory where you downloaded wellsrPRO.xlam
 9) Select wellsrPRO.xlam, and then click OK. You may be asked to copy the add-in to your local Microsoft AddIns directory. This is optional.
 10) Make sure the checkbox next to "wellsrPRO" is checked, then click OK.
-11) If the add-in keeps disappearing when you restart Excel, follow the directions at the top of this file
+11) If the add-in keeps disappearing when you restart Excel, follow the tips at the top of the [installation instructions](#installation-instructions)
 
 *************************************************************************************************
 <i>You cannot run update.vbs manually. Attempting to do so will generate an error. This script is an internal script used by wellsrPRO to check for updates. You can ignore it. :-) </i>
