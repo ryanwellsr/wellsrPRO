@@ -13,7 +13,7 @@ In addition to accessing hundreds tutorials and importing fully functional macro
 ![wellsrPRO Screenshot](https://wellsr.com/vba/assets/img/AutoImport-FullScreen.png)
 
 ## Here's how you can help
-I built wellsrPRO in 2017 and kept the source code locked behind a premium obfuscator for 3 years. In those 3 years, wellsrPRO has grown to over 4000 lines of code and it's been downloaded by thousands of my email subscribers. In December 2020, I decided to upload the entire source code to GitHub and here's why. Right now, wellsrPRO pulls tutorials & macros from my site, but its infrastructure can do so much more. I'm hoping others in the GitHub community will fork this project and expand it to pull tutorials and macros from other Excel websites and even add brand new functions. Once you've improved it, submit a pull request and I'll push the new release to our active users.
+I built wellsrPRO in 2017 and kept the source code locked behind a premium obfuscator for 3 years. In those 3 years, wellsrPRO has been downloaded by 12000 users. In December 2020, I decided to upload the entire source code to GitHub and here's why. Right now, wellsrPRO pulls tutorials & macros from my site, but its infrastructure can do so much more. I'm hoping others in the GitHub community will fork this project and expand it to pull tutorials and macros from other Excel websites and even add brand new functions. Once you've improved it, submit a pull request and I'll push the new release to our active users.
 
 ![wellsrPRO Ribbon](https://wellsr.com/vba/assets/img/RecentArticles-RSS-crop2.png)
 
