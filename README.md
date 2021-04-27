@@ -49,8 +49,7 @@ Place your wellsrPRO file in the folder that opens (`Debug.Print Application.Sta
 
 *********************************************************************************************
 ### Installing wellsrPRO on Excel 2010 and newer
-
-Installing wellsrPRO on Excel 2010 and newer:
+wellsrPRO is not supported on Excel 2007 or earlier. Here are the steps to install wellsrPRO on Excel 2010 and newer:
 1) If you haven't done so already, download wellsrPRO.xlam
 2) Open Excel
 3) Click the File tab
